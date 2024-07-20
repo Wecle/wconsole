@@ -1,0 +1,27 @@
+{
+  "name": "wconsole",
+  "version": "1.0.0",
+  "description": "A wonderful console plugin!",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wecle/wconsole.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wecle/wconsole/issues"
+  },
+  "homepage": "https://github.com/Wecle/wconsole#readme",
+  "volta": {
+    "node": "18.20.4"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  }
+}
