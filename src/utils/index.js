@@ -2,6 +2,7 @@ export function createLog (name) {
     const _console = console
 
     return function (...args) {
+        console.log('🚀 ~ args:', args)
         const func = _console[name] || _console.log
         func.apply(void 0, args)
     }

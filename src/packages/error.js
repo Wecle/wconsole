@@ -1,5 +1,5 @@
 import { createLog } from '../utils/index'
-import color from '../config/color'
+import color from '../config/style'
 
 function error (text, throwable = true) {
     const logName = throwable ? 'error' : 'log'

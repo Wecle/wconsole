@@ -1,3 +1,3 @@
-import * as wconsole from './wconsole.js'
+import wconsole from './wconsole.js'
 
 export default wconsole

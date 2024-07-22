@@ -1,9 +1,15 @@
 import text from './packages/text'
 import rainbow from './packages/rainbow'
 import error from './packages/error'
+import palette from './packages/palette'
+import image from './packages/image'
 
-export {
+const wconsole = {
     text,
     rainbow,
-    error
+    error,
+    image,
+    ...palette
 }
+
+export default wconsole
